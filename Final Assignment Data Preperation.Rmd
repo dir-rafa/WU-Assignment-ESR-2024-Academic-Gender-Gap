@@ -8,9 +8,9 @@ resource_files:
 bibliography: references.bib
 csl: apa.csl
 output:
-  bookdown::html_document2:
-    toc: false
   bookdown::pdf_document2:
+    toc: false
+  bookdown::html_document2:
     toc: false
 urlcolor: blue
 ---
@@ -20,8 +20,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 This essay is aimed at **Question Q4** (Data Visualisation) of the final assignment.
-
-The source files of this essay are availagble at https://github.com/dir-rafa/WU-Assignment-ESR-2024-Academic-Gender-Gap 
 
 # Academic Gender Gap
 
@@ -75,7 +73,6 @@ The aforementioned data set holds information about the amount of students enrol
 
 To understand the development of the academic gender gap over time, line graphs will be used for analysing the different specified dimensions of academic education. Moreover, mostly weighted regression lines will be used for displaying the trend instead of raw data lines, since academic years are split into two semester and typically more new students register for the winter semester, which leads to a fluctuating levels of students in between two academic years. To avoid overplotting this simplification will be employed for the first two sections of this essay. In the last section a different simplicifaction method will be used.
 
-\newpage
 
 ## Data Preperation
 
@@ -314,3 +311,6 @@ In their evaluation they found that more female students graduate university, wh
 
 <div id="refs"></div>
 
+$$\\[0.1cm]$$
+
+The source files of this essay are availagble at https://github.com/dir-rafa/WU-Assignment-ESR-2024-Academic-Gender-Gap
