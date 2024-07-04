@@ -8,9 +8,9 @@ resource_files:
 bibliography: references.bib
 csl: apa.csl
 output:
-  bookdown::pdf_document2:
-    toc: false
   bookdown::html_document2:
+    toc: false
+  bookdown::pdf_document2:
     toc: false
 urlcolor: blue
 ---
